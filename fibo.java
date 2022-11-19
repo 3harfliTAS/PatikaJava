@@ -7,14 +7,15 @@ public class asalSayi {
 
         System.out.print("Kac elemanli : ");
         int c=a.nextInt();
-        int i=0,toplam=0;
-        while(i <c){
-
-            toplam +=i;
-            i++;
+        int x=0,y=1,z,t;
+        System.out.print(x+","+y);
+        for(int i=2;i<=c;i++) {
+            z=x+y;
+            System.out.print(","+z);
+            x = y;
+            y=z;
+            System.out.print(" ");
         }
-        System.out.println(toplam);
-
 
     }
 }
