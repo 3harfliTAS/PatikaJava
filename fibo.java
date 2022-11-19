@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class asalSayi {
+public class fibo {
     public static void main(String[] args) {
 
         Scanner a=new Scanner(System.in);
