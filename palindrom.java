@@ -5,6 +5,9 @@ public class palindrom {
         Scanner a = new Scanner(System.in);
         int c=a.nextInt();
         int lnum,temp=c,reverse=0;
+        
+        
+        //Sonda kontrol yapılacağı için c = temp yapıyoruz. 2 tane c sayısı elde etmiş oluyoruz.
         while(temp != 0){
 
             lnum =temp %10;
